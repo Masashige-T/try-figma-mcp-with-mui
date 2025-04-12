@@ -24,7 +24,7 @@ export const TodoForm = ({ onAddTodo }: TodoFormProps) => {
   };
 
   return (
-    <Card>
+    <Card sx={{ maxWidth: 1280, width: '100%', mx: 'auto' }}>
       <CardHeader title="新規TODOを作成する" />
       <form onSubmit={handleSubmit}>
         <CardContent>
